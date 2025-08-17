@@ -11,19 +11,16 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Pacman Graph
-        uses: yoshi389111/github-contribution-graph@main
+      - name: Generate Pacman contribution graph
+        uses: lowlighter/metrics@latest
         with:
-          username: niminimion
-          type: pacman
-
-      - name: Commit and Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/*
-          git commit -m "chore: update pacman contribution graph" || echo "No changes to commit"
-          git push
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: niminimion
+          template: classic
+          base: ""
+          config_display: large
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
