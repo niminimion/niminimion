@@ -23,8 +23,11 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=niminimion&show_icons=true&locale=en" alt="niminimion" /></p>
 
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niminimion/niminimion/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/niminimion/niminimion/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/niminimion/niminimion/output/pacman-contribution-graph.svg">
-</picture>
+<h3 align="left">🎮 Contribution Activity:</h3>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niminimion/niminimion/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/niminimion/niminimion/output/pacman-contribution-graph.svg">
+    <img alt="Pacman eating my contributions" src="https://raw.githubusercontent.com/niminimion/niminimion/output/pacman-contribution-graph.svg">
+  </picture>
+</p>
