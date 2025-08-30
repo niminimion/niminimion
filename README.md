@@ -7,7 +7,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/niminimion](https://github.com/niminimion)
 
-- 📫 How to reach me **jiaqi.lee@etu.univ-tours.fr**
+- 📫 How to reach me **leee8196@gmail.com**
 
 - ⚡ Fun fact **no fact**
 
